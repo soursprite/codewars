@@ -5,4 +5,5 @@ function sumOfDifferences(arr) {
       res += (sorted[i-1] - sorted[i])
     }
     return res
+    
   }
