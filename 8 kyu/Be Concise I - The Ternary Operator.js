@@ -1,5 +1,3 @@
-// TODO: Refactor and shorten the function
-
 function describeAge(age) {
-    return (age <= 12) ? "You're a(n) kid" : (age >= 13 && age <= 17) ? "You're a(n) teenager" : (age >= 18 && age <= 64) ? "You're a(n) adult" : "You're a(n) elderly";
+    return "You're a(n) "+((age<13)?"kid":(age<18)?"teenager":(age<65)?"adult":"elderly")
   }
