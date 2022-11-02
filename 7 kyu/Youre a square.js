@@ -6,3 +6,5 @@ var isSquare = function(n){
     } else if (n === 0 || n=== 1) {return true}
     return false
   }
+
+  //small adj
